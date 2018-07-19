@@ -59,7 +59,6 @@ function myTweets() {
 } //end myTweets
 
 function spotifyThis() {
-    console.log(nodeArgs.length);
     if (searchString == "" || searchString == " " || searchString == null || searchString == " " || nodeArgs.length == 3) {
         searchString = "The Sign Ace of Base";
     }
